@@ -47,9 +47,10 @@
             <div class="row">
                 <div class="col-6 col-xs-12">
                     <p class="left-p">Welcome to Beatles </p>
+                    <button id="button">click me</button>
                 </div>
                 <div class="col-6 col-xs-12 text-right ">
-                    
+
                     <ul class="right-links">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -75,11 +76,11 @@
                     <ul class="nav-links" id="nav_links">
                         <li><i class="fas fa-times nav_close" id="nav_close"></i></li>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Testimonial</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#aboutus">About us</a></li>
+                        <li><a href="#team">team</a></li>
+                        <li><a href="#testimonial">Testimonial</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#footer">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -90,7 +91,7 @@
         <div class="overlay">
             <div class="container">
                 <div class="row justify-content-end">
-                   
+
                     <div class="col-6 col-xs-12 col-sm-8">
                         <div class="banner_content">
                             <h2>Hi! We Are</h2>
@@ -467,6 +468,34 @@
         </div>
     </section>
 
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card form_body">
+                        <div class="card-body">
+                            <form action="#" name="datas">
+                                <h5>Calculator</h5>
+                                <input type="number" name="number1" placeholder="give number one....">
+                                <input type="number" name="number2" placeholder="give number two....">
+                                <button type="button" onclick="calculates(+datas.number1.value , +datas.number2.value)">submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card form_body">
+                        <div class="card-body">
+                            <h5>Result</h5>
+                            <ul id="myList">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer id="footer">
         <div class="container footer_top_padding">
             <div class="row">
@@ -549,7 +578,7 @@
                 <div class="row">
                     <div class="col-12">
                         <p>
-                            Copyright &copy; 2021. All rights reserved by <a href="/">BEATLS</a> 
+                            Copyright &copy; 2021. All rights reserved by <a href="/">BEATLS</a>
                         </p>
                     </div>
                 </div>
@@ -559,7 +588,11 @@
 
 
 
+
     <script src="js/custom.js"></script>
+    <script src="js/classone.js"></script>
+    <script src="js/learn.js"></script>
+
 </body>
 
 </html>

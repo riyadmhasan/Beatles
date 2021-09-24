@@ -10,3 +10,7 @@ nav_close.addEventListener('click',function(e){
     e.preventDefault();
     document.getElementById('nav_links').classList.toggle('nav_show');
 })
+
+document.getElementById("button").addEventListener('click', function(){
+    alert('hi you click me')
+});
